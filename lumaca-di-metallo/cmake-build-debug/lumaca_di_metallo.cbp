@@ -84,16 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Enemy.cpp">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Enemy.h">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
 		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/GameCharacter.cpp">
 			<Option target="lumaca_di_metallo"/>
 		</Unit>
 		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/GameCharacter.h">
-			<Option target="lumaca_di_metallo"/>
-		</Unit>
-		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.cpp">
-			<Option target="lumaca_di_metallo"/>
-		</Unit>
-		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.h">
 			<Option target="lumaca_di_metallo"/>
 		</Unit>
 		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/main.cpp">

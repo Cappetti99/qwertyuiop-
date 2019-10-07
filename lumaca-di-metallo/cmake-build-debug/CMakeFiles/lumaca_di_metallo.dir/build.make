@@ -84,17 +84,17 @@ CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/GameCharacter.cpp -o CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.s
 
 CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
-CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o: Enemy.cpp
+CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o: ../Enemy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Enemy.cpp
 
 CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.cpp > CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Enemy.cpp > CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i
 
 CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.cpp -o CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Enemy.cpp -o CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s
 
 # Object files for target lumaca_di_metallo
 lumaca_di_metallo_OBJECTS = \
