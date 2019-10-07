@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lumaca_di_metallo.dir/main.cpp.o  -o lumaca_di_metallo 
