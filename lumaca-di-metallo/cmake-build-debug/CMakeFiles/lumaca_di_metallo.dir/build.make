@@ -43,10 +43,10 @@ RM = /opt/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo
+CMAKE_SOURCE_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lumaca_di_metallo.dir/depend.make
@@ -59,28 +59,58 @@ include CMakeFiles/lumaca_di_metallo.dir/flags.make
 
 CMakeFiles/lumaca_di_metallo.dir/main.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
 CMakeFiles/lumaca_di_metallo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/main.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/main.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/main.cpp
 
 CMakeFiles/lumaca_di_metallo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/main.cpp > CMakeFiles/lumaca_di_metallo.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/main.cpp > CMakeFiles/lumaca_di_metallo.dir/main.cpp.i
 
 CMakeFiles/lumaca_di_metallo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/main.cpp -o CMakeFiles/lumaca_di_metallo.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/main.cpp -o CMakeFiles/lumaca_di_metallo.dir/main.cpp.s
+
+CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
+CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o: ../GameCharacter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/GameCharacter.cpp
+
+CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/GameCharacter.cpp > CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.i
+
+CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/GameCharacter.cpp -o CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.s
+
+CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
+CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o: Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.cpp
+
+CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.cpp > CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i
+
+CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/Enemy.cpp -o CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s
 
 # Object files for target lumaca_di_metallo
 lumaca_di_metallo_OBJECTS = \
-"CMakeFiles/lumaca_di_metallo.dir/main.cpp.o"
+"CMakeFiles/lumaca_di_metallo.dir/main.cpp.o" \
+"CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o" \
+"CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o"
 
 # External object files for target lumaca_di_metallo
 lumaca_di_metallo_EXTERNAL_OBJECTS =
 
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/main.cpp.o
+lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o
+lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/build.make
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lumaca_di_metallo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lumaca_di_metallo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lumaca_di_metallo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +123,6 @@ CMakeFiles/lumaca_di_metallo.dir/clean:
 .PHONY : CMakeFiles/lumaca_di_metallo.dir/clean
 
 CMakeFiles/lumaca_di_metallo.dir/depend:
-	cd /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cappetti99/CLionProjects/lumaca-di-metallo /home/cappetti99/CLionProjects/lumaca-di-metallo /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug/CMakeFiles/lumaca_di_metallo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles/lumaca_di_metallo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lumaca_di_metallo.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cappetti99/CLionProjects/lumaca-di-metallo
+# Install script for directory: /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

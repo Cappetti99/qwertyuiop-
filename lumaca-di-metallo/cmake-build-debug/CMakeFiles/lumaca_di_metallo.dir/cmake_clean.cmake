@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lumaca_di_metallo.dir/main.cpp.o"
+  "CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o"
+  "CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o"
   "lumaca_di_metallo.pdb"
   "lumaca_di_metallo"
 )

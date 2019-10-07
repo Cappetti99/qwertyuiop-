@@ -48,10 +48,10 @@ RM = /opt/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo
+CMAKE_SOURCE_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug/CMakeFiles /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cappetti99/CLionProjects/lumaca-di-metallo/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ lumaca_di_metallo/fast:
 	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/build
 .PHONY : lumaca_di_metallo/fast
 
+Enemy.o: Enemy.cpp.o
+
+.PHONY : Enemy.o
+
+# target to build an object file
+Enemy.cpp.o:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o
+.PHONY : Enemy.cpp.o
+
+Enemy.i: Enemy.cpp.i
+
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
+GameCharacter.o: GameCharacter.cpp.o
+
+.PHONY : GameCharacter.o
+
+# target to build an object file
+GameCharacter.cpp.o:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o
+.PHONY : GameCharacter.cpp.o
+
+GameCharacter.i: GameCharacter.cpp.i
+
+.PHONY : GameCharacter.i
+
+# target to preprocess a source file
+GameCharacter.cpp.i:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.i
+.PHONY : GameCharacter.cpp.i
+
+GameCharacter.s: GameCharacter.cpp.s
+
+.PHONY : GameCharacter.s
+
+# target to generate assembly for a file
+GameCharacter.cpp.s:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.s
+.PHONY : GameCharacter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lumaca_di_metallo"
 	@echo "... edit_cache"
+	@echo "... Enemy.o"
+	@echo "... Enemy.i"
+	@echo "... Enemy.s"
+	@echo "... GameCharacter.o"
+	@echo "... GameCharacter.i"
+	@echo "... GameCharacter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
