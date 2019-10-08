@@ -96,11 +96,67 @@ CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Enemy.cpp -o CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.s
 
+CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
+CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.o: ../Champ.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Champ.cpp
+
+CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Champ.cpp > CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.i
+
+CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Champ.cpp -o CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.s
+
+CMakeFiles/lumaca_di_metallo.dir/Item.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
+CMakeFiles/lumaca_di_metallo.dir/Item.cpp.o: ../Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/Item.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/Item.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Item.cpp
+
+CMakeFiles/lumaca_di_metallo.dir/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/Item.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Item.cpp > CMakeFiles/lumaca_di_metallo.dir/Item.cpp.i
+
+CMakeFiles/lumaca_di_metallo.dir/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/Item.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Item.cpp -o CMakeFiles/lumaca_di_metallo.dir/Item.cpp.s
+
+CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
+CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.o: ../Weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Weapon.cpp
+
+CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Weapon.cpp > CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.i
+
+CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Weapon.cpp -o CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.s
+
+CMakeFiles/lumaca_di_metallo.dir/Map.cpp.o: CMakeFiles/lumaca_di_metallo.dir/flags.make
+CMakeFiles/lumaca_di_metallo.dir/Map.cpp.o: ../Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lumaca_di_metallo.dir/Map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lumaca_di_metallo.dir/Map.cpp.o -c /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Map.cpp
+
+CMakeFiles/lumaca_di_metallo.dir/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lumaca_di_metallo.dir/Map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Map.cpp > CMakeFiles/lumaca_di_metallo.dir/Map.cpp.i
+
+CMakeFiles/lumaca_di_metallo.dir/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lumaca_di_metallo.dir/Map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Map.cpp -o CMakeFiles/lumaca_di_metallo.dir/Map.cpp.s
+
 # Object files for target lumaca_di_metallo
 lumaca_di_metallo_OBJECTS = \
 "CMakeFiles/lumaca_di_metallo.dir/main.cpp.o" \
 "CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o" \
-"CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o"
+"CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o" \
+"CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.o" \
+"CMakeFiles/lumaca_di_metallo.dir/Item.cpp.o" \
+"CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.o" \
+"CMakeFiles/lumaca_di_metallo.dir/Map.cpp.o"
 
 # External object files for target lumaca_di_metallo
 lumaca_di_metallo_EXTERNAL_OBJECTS =
@@ -108,9 +164,13 @@ lumaca_di_metallo_EXTERNAL_OBJECTS =
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/main.cpp.o
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.o
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/Enemy.cpp.o
+lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.o
+lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/Item.cpp.o
+lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.o
+lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/Map.cpp.o
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/build.make
 lumaca_di_metallo: CMakeFiles/lumaca_di_metallo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lumaca_di_metallo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lumaca_di_metallo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lumaca_di_metallo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

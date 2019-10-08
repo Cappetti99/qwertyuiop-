@@ -123,6 +123,33 @@ lumaca_di_metallo/fast:
 	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/build
 .PHONY : lumaca_di_metallo/fast
 
+Champ.o: Champ.cpp.o
+
+.PHONY : Champ.o
+
+# target to build an object file
+Champ.cpp.o:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.o
+.PHONY : Champ.cpp.o
+
+Champ.i: Champ.cpp.i
+
+.PHONY : Champ.i
+
+# target to preprocess a source file
+Champ.cpp.i:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.i
+.PHONY : Champ.cpp.i
+
+Champ.s: Champ.cpp.s
+
+.PHONY : Champ.s
+
+# target to generate assembly for a file
+Champ.cpp.s:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Champ.cpp.s
+.PHONY : Champ.cpp.s
+
 Enemy.o: Enemy.cpp.o
 
 .PHONY : Enemy.o
@@ -177,6 +204,87 @@ GameCharacter.cpp.s:
 	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/GameCharacter.cpp.s
 .PHONY : GameCharacter.cpp.s
 
+Item.o: Item.cpp.o
+
+.PHONY : Item.o
+
+# target to build an object file
+Item.cpp.o:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Item.cpp.o
+.PHONY : Item.cpp.o
+
+Item.i: Item.cpp.i
+
+.PHONY : Item.i
+
+# target to preprocess a source file
+Item.cpp.i:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Item.cpp.i
+.PHONY : Item.cpp.i
+
+Item.s: Item.cpp.s
+
+.PHONY : Item.s
+
+# target to generate assembly for a file
+Item.cpp.s:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Item.cpp.s
+.PHONY : Item.cpp.s
+
+Map.o: Map.cpp.o
+
+.PHONY : Map.o
+
+# target to build an object file
+Map.cpp.o:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Map.cpp.o
+.PHONY : Map.cpp.o
+
+Map.i: Map.cpp.i
+
+.PHONY : Map.i
+
+# target to preprocess a source file
+Map.cpp.i:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Map.cpp.i
+.PHONY : Map.cpp.i
+
+Map.s: Map.cpp.s
+
+.PHONY : Map.s
+
+# target to generate assembly for a file
+Map.cpp.s:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Map.cpp.s
+.PHONY : Map.cpp.s
+
+Weapon.o: Weapon.cpp.o
+
+.PHONY : Weapon.o
+
+# target to build an object file
+Weapon.cpp.o:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.o
+.PHONY : Weapon.cpp.o
+
+Weapon.i: Weapon.cpp.i
+
+.PHONY : Weapon.i
+
+# target to preprocess a source file
+Weapon.cpp.i:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.i
+.PHONY : Weapon.cpp.i
+
+Weapon.s: Weapon.cpp.s
+
+.PHONY : Weapon.s
+
+# target to generate assembly for a file
+Weapon.cpp.s:
+	$(MAKE) -f CMakeFiles/lumaca_di_metallo.dir/build.make CMakeFiles/lumaca_di_metallo.dir/Weapon.cpp.s
+.PHONY : Weapon.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,12 +321,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lumaca_di_metallo"
 	@echo "... edit_cache"
+	@echo "... Champ.o"
+	@echo "... Champ.i"
+	@echo "... Champ.s"
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
 	@echo "... GameCharacter.o"
 	@echo "... GameCharacter.i"
 	@echo "... GameCharacter.s"
+	@echo "... Item.o"
+	@echo "... Item.i"
+	@echo "... Item.s"
+	@echo "... Map.o"
+	@echo "... Map.i"
+	@echo "... Map.s"
+	@echo "... Weapon.o"
+	@echo "... Weapon.i"
+	@echo "... Weapon.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

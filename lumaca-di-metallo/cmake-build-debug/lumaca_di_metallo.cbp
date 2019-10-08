@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Champ.cpp">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Champ.h">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
 		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Enemy.cpp">
 			<Option target="lumaca_di_metallo"/>
 		</Unit>
@@ -94,6 +100,24 @@
 			<Option target="lumaca_di_metallo"/>
 		</Unit>
 		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/GameCharacter.h">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Item.cpp">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Item.h">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Map.cpp">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Map.h">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Weapon.cpp">
+			<Option target="lumaca_di_metallo"/>
+		</Unit>
+		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/Weapon.h">
 			<Option target="lumaca_di_metallo"/>
 		</Unit>
 		<Unit filename="/home/cappetti99/CLionProjects/lumaca-di-metallo/lumaca-di-metallo/main.cpp">
